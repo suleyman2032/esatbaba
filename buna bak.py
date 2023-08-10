@@ -27,4 +27,4 @@ async def _bot(ctx):
 
 
 
-bot.run("MTEzNjY5ODE5MjE2ODIzMDkyMg.GhS5eo.AULSWu0FyzH23jEHmpVpSM6GLloIEuMf5BC0mU")
+bot.run("token")
