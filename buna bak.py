@@ -19,12 +19,10 @@ async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
 
-@bot.command(name='bot')
-async def _bot(ctx):
-    """Is the bot cool?"""
-    await ctx.send('Yes, the bot is bot.')
-
-
+@bot.event
+async def on_ready():
+    print(f'Logged in as {bot.user} (ID: {bot.user.id})')
+    print('------')
 
 
 bot.run("token")
