@@ -21,4 +21,4 @@ async def duck(ctx):
     #'''duck komutunu çağırdığımızda, program ordek_resmi_urlsi_al fonksiyonunu çağırır.'''
     image_url = get_duck_image_url()
     await ctx.send(image_url)
-bot.run("MTEzNjY5ODE5MjE2ODIzMDkyMg.GWqjR6.wrcB1JlfKfDbphqkHiUSqQj2XACICkl1rk-A18")
+
